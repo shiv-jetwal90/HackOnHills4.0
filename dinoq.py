@@ -80,7 +80,7 @@ class DinoAgent:
     def duck(self):
         self._game.press_down()
 
-class Game_sate:
+class Game_state:
     def __init__(self, agent, game):
         self._agent = agent
         self._game = game
